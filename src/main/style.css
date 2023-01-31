@@ -1,0 +1,75 @@
+GridPane {
+    -fx-background-color: #82A9B8;
+}
+
+StackPane {
+    -fx-alignment: center;
+}
+
+.numberBox {
+    -fx-padding: 10px;
+    -fx-background-insets: 2px 1px 1px 1px, 2px, 5px, 10px;
+    -fx-background-radius: 10px, 5px, 5px, 10px;
+    -fx-background-color: #CCCCCC, #EEEEEE, #578DD9, #6293D9;
+}
+
+.numberBox:hover {
+    -fx-background-insets: 2px 1px 1px 1px, 2px, 5px, 10px;
+    -fx-background-radius: 10px, 5px, 5px, 10px;
+    -fx-background-color: #CCCCCC, #EEEEEE, #6293D9, #6C9AD9;
+}
+
+.numberBox:pressed {
+    -fx-background-insets: 2px 1px 1px 1px, 2px, 5px, 8px;
+    -fx-background-radius: 10px, 5px, 5px, 10px;
+}
+
+.selected {
+    -fx-background-color: #CCCCCC, #EEEEEE, #69AAFF, #75B1FF;
+}
+
+.selected:hover {
+    -fx-background-color: #CCCCCC, #EEEEEE, #75B1FF, #80B9FF;
+}
+
+.marked {
+    -fx-background-color: #CCCCCC, #EEEEEE, #DD5055, #DB6369;
+}
+
+.marked:hover {
+    -fx-background-color: #CCCCCC, #EEEEEE, #DB6369, #D9777C;
+}
+
+.smallNumber {
+    -fx-background-color: #55A5FF;
+    -fx-background-insets: 0px -2px 0px -2px;
+    -fx-background-radius: 2px;
+}
+
+.bigNumber {
+    -fx-font-size: 32px;
+}
+
+.highlight {
+    -fx-background-color: greenyellow;
+    -fx-background-insets: 0px -2px 0px -2px;
+    -fx-background-radius: 2px;
+}
+
+.highlight-red {
+    -fx-background-color: red;
+    -fx-background-insets: 0px -2px 0px -2px;
+    -fx-background-radius: 2px;
+}
+
+.highlight > .bigNumber, .highlight-red > .bigNumber {
+    -fx-background-color: greenyellow;
+}
+
+.selected.marked {
+    -fx-background-color: #CCCCCC, #EEEEEE, #E7555A, #E66A70;
+}
+
+.selected.marked {
+    -fx-background-color: #CCCCCC, #EEEEEE, #E66A70, #E67E85;
+}
